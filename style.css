@@ -1,0 +1,30 @@
+html {
+box-sizing: border-box;
+color: white;
+}
+*, *:before,*:after {
+box-sizing: inherit;
+}
+main{
+    background-image: url("img/bg.jpg");
+    background-size:cover;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    
+ 
+}
+
+.circle{
+    background-color: #4f6a13;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+}
